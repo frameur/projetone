@@ -87,7 +87,7 @@ nav ul li a:hover {
 
 }
 
-h2 {
+.image1 h2 {
     font-family: sans-serif;
     color: blanchedalmond;
     margin: 0px;
@@ -107,11 +107,14 @@ h2 {
     background-color: whitesmoke;
     width: auto;
     height: 1000px;
+    display: flex;
+    justify-content: center;
 
 }
 
 #container h2 {
-    color: black;
+    color: red;
+    font-size: 50px;
 }
 
 
@@ -150,6 +153,10 @@ h2 {
 .reseau ul li i{
     margin-top: 20px;
     
+}
+.reseau ul li a:hover{
+    background-color: aliceblue;
+    width: 100%;
 }
 
 
