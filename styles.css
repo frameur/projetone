@@ -136,8 +136,7 @@ h2 {
 .reseau ul li{
     width: 100px;
     height: 100px;
-    text-align: center;
-    background-color:black;
+    /* background-color:black; */
     border-radius: 50%;
 
    
@@ -153,6 +152,8 @@ footer {
 footer h4 {
     color: white;
     display: flex;
+    justify-content: center;
+    align-items: center;
     
     
 
