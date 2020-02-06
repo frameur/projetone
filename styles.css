@@ -123,29 +123,37 @@ h2 {
 
 }
 .reseau ul{
-    margin-top: 200px;
     list-style: none;
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-evenly; 
+    justify-content: space-around; 
+    
     
    
    
     
 }
-.reseau ul li{
+.reseau li{
     width: 100px;
     height: 100px;
-    /* background-color:black; */
+    background-color:black;
     border-radius: 50%;
-
+    
+    
    
+}
+.reseau ul li i{
+    display: flex;
+    justify-content: center;
+
+}
+.fa.fa-address-book{
     
 }
 
 /* pied de page */
 footer {
-    height: 300px;
+    height: 150px;
     background-color: rgb(61, 4, 61);
 }
 
