@@ -118,15 +118,19 @@ h2 {
 
 /* sociable */
 .reseau {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
     height: 300px;
     background-color: whitesmoke;
+    
 
 }
 .reseau ul{
     list-style: none;
+    margin-top: 150px;
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around; 
+    justify-content: space-evenly;
     
     
    
@@ -138,30 +142,30 @@ h2 {
     height: 100px;
     background-color:black;
     border-radius: 50%;
-    
-    
-   
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+     
 }
 .reseau ul li i{
-    display: flex;
-    justify-content: center;
-
-}
-.fa.fa-address-book{
+    margin-top: 20px;
     
 }
+
 
 /* pied de page */
 footer {
     height: 150px;
     background-color: rgb(61, 4, 61);
-}
-
-footer h4 {
-    color: white;
     display: flex;
     justify-content: center;
-    align-items: center;
+    
+}
+
+h4 {
+    color: white;
+    margin-top: auto;
+    font-size: 30px;
     
     
 
@@ -188,12 +192,11 @@ footer h4 {
 }
 
 #form {
-    background-color: grey);
+    
     box-shadow: 10px 10px 10px #141516;
     width: 670px;
     height: 500px;
     margin: auto;
-
 
 }
 
