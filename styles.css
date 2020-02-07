@@ -81,7 +81,7 @@ nav ul li a:hover {
 
 /* partie histoire */
 .image1 {
-    background: url(/image/103191_2.jpg);
+    background: url(./image/103191_2.jpg);
     width: 100%;
     height: 600px;
 
@@ -201,7 +201,7 @@ h4 {
 
 /* formulaire */
 #folio {
-    background-image: url(/image/hansexpo.jpg);
+    background-image: url(./image/hansexpo.jpg);
     background-size: cover;
     background-attachment: fixed;
     width: 100%;
