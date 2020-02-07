@@ -171,6 +171,7 @@ nav ul li a:hover {
     top: 50%;
     transform: translateY(-50%);
     text-align: center;
+    text
     padding: 15px;
     color: #fff;
     
@@ -185,6 +186,10 @@ nav ul li a:hover {
     transform: scaleY(1);
     
     
+}
+/* video */
+video{
+ margin-left: 700px;
 }
 
 /* sociable */
@@ -229,6 +234,7 @@ nav ul li a:hover {
 .fa.fa-address-book{
     font-size: 48px;
     color: red;
+    
 }
 .fa.fa-archive{
     font-size: 48px;
@@ -243,6 +249,7 @@ nav ul li a:hover {
 }
 .fa.fa-address-book:hover{
     color: whitesmoke;
+    
 }
 .fa.fa-archive:hover{
     color: whitesmoke;
