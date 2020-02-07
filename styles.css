@@ -204,6 +204,33 @@ nav ul li a:hover {
 .reseau ul li a{
     transition: 0.5s;
 }
+.fa.fa-address-book{
+    font-size: 48px;
+    color: red;
+}
+.fa.fa-archive{
+    font-size: 48px;
+    color: red;
+}
+.fa.fa-at{
+    font-size: 48px;
+    color: red;
+}.fa.fa-book{
+    font-size: 48px;
+    color: red;
+}
+.fa.fa-address-book:hover{
+    color: whitesmoke;
+}
+.fa.fa-archive:hover{
+    color: whitesmoke;
+}
+.fa.fa-at:hover{
+    color: whitesmoke;
+}
+.fa.fa-book:hover{
+    color: whitesmoke;
+}
 
 
 /* pied de page */
