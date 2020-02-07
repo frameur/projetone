@@ -162,40 +162,6 @@ nav ul li a:hover {
 }
 
 
-/* #container {
-    background-color: whitesmoke;
-    width: auto;
-    height: 800px;
-    
-
-}
-h5 {
-    color: red;
-    font-size: 50px;
-    display: flex;
-    justify-content: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
-#container1{
-    display: flex;
-   justify-content: space-around;
-   margin-bottom: 100px;
-  
-    
-   
-}
-#conatiner2{
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 40px;
-}
-#container p{
-    width: auto;
-    text-align: center;
-    text-align: justify;
-    margin: 20px;
-} */
 
 
 
@@ -214,10 +180,6 @@ h5 {
     margin-top: 150px;
     display: flex;
     justify-content: space-evenly;
-    
-    
-   
-   
     
 }
 .reseau li a{
