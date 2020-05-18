@@ -26,7 +26,17 @@ h1 {
     padding-left: 80px;
     letter-spacing: 3px;
     padding-top: 15px;
+    text-align: center;
 
+}
+h2{
+    text-align: center;
+}
+h4{
+    text-align: center;
+    color: white;
+    margin-top: auto;
+    font-size: 30px;
 }
 
 span {
@@ -38,10 +48,10 @@ span {
 
 nav {
 
-    width: 100%;
+    /* width: 100%;
     height: 80px;
     background-color: rgb(61, 4, 61);
-    z-index: 1;
+    z-index: 1; */
     
 
 
@@ -61,7 +71,7 @@ nav li {}
 
 nav ul li {
 
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     list-style: none;
 
 
@@ -83,6 +93,7 @@ nav ul li a {
 
 nav ul li a:hover {
     color: red;
+    text-decoration: none;
 }
 #searching{
     border-radius: 8px;
@@ -191,15 +202,17 @@ nav ul li a:hover {
 /* video */
 iframe{
  margin-left: 700px;
+ display: flex;
+ justify-content: center;
 }
 
 /* sociable */
 .reseau {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    height: 300px;
-    background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  
+   
+   
    
 
 }
@@ -208,6 +221,7 @@ iframe{
     margin-top: 150px;
     display: flex;
     justify-content: space-evenly;
+    
     
 }
 .reseau li a{
@@ -265,21 +279,13 @@ iframe{
 
 /* pied de page */
 footer {
-    height: 150px;
-    background-color: rgb(61, 4, 61);
+    height: 50px;
+    
     display: flex;
     justify-content: center;
     
 }
 
-h4 {
-    color: white;
-    margin-top: auto;
-    font-size: 30px;
-    
-    
-
-}
 
 /* formulaire */
 #folio {
@@ -287,7 +293,7 @@ h4 {
     background-size: cover;
     background-attachment: fixed;
     width: 100%;
-    height: 600px;
+    height: 800px;
 }
 
 #nom {
