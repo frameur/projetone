@@ -4,46 +4,81 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    margin: 0;
+    padding: 0;
+    background: #262626;
+    font-family: sans-serif; 
+    overflow-x: hidden;   
+}
 
 html {
     width: 100%;
     height: 100vh;
+
 }
 
 
-
+/* navigation */
 h1 {
+    position: relative;
     color: seashell;
-    padding-left: 100px;
+    padding-left: 80px;
     letter-spacing: 3px;
-
-
+    padding-top: 15px;
+    text-align: center;
 
 }
+h2{
+    text-align: center;
+}
+h4{
+    text-align: center;
+    color: white;
+    margin-top: auto;
+    font-size: 30px;
+}
 
-.redletter {
+span {
 
     color: red;
-    font-size: 130%;
-
+    font-size: 160%;
 
 }
-/* navigation */
+
 nav {
-    display: flex;
-    justify-content: flex-end;
-    width: 100%;
+
+    /* width: 100%;
     height: 80px;
     background-color: rgb(61, 4, 61);
+    z-index: 1; */
+    
+
+
 }
+
+nav ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: flex-end;
+
+}
+
+nav li {}
+    
+
 
 nav ul li {
 
-    
+    /* background-attachment: fixed; */
     list-style: none;
-    display: inline-block;
+
+
+
+    /* display: inline-block;
     padding: 40px;
-    margin-left: 80px;
+    margin-left: 80px; */
 
 
 }
@@ -58,40 +93,190 @@ nav ul li a {
 
 nav ul li a:hover {
     color: red;
+    text-decoration: none;
 }
+#searching{
+    border-radius: 8px;
+    height: 30px;
+}
+
+
 
 /* partie histoire */
 .image1 {
-    background: url(/image/103191_2.jpg);
+    background: url(./image/103191_2.jpg);
     width: 100%;
     height: 600px;
-    font-size: 42px;
+
+}
+
+.image1 h2 {
+    font-family: sans-serif;
+    color: blanchedalmond;
+    margin: 0px;
+    font-size: 50px;
     text-align: center;
     padding-top: 200px;
+    display: flex;
+    justify-content: center;
+
+
+
 }
 
 /* galerie */
-
-#container {
-    background-color: whitesmoke;
-    width: auto;
-    height: 1000px;
-
+#galerie{
+    text-align: center;
+}
+.container{
+    width: 100%;
+    min-height: 500px;
+    margin: 70px auto 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+   
+    
 }
 
-/* formulaire et parallax */
-.contact {
-    height: 600px;
-    background-color: violet;
+
+.container .box{
+    position: relative;
+    width: 260px;
+    height: 170px;
+    background: #ffff00;
+    margin: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+   
+
+    
+}
+.container .box .imgbox{
+   position: relative;
+   overflow: hidden;
+  
+}
+.container .box .imgbox img{
+    max-width: 100%;
+    transition: transform 2s;
+   
+
+}
+.container .box:hover .imgbox img{
+    transform: scale(1.2);
+}
+.container .box .detail{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
+    background: rgb(0,0,0,.3);
+    transform: scaleY(0);
+    transition: transform .5s;
+}
+.container .box .detail .content{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    text
+    padding: 15px;
+    color: #fff;
+    
+}
+.container .box .detail .content h2{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    color: #ffff00;
+}
+.container .box:hover .detail{
+    transform: scaleY(1);
+    
+    
+}
+/* video */
+iframe{
+ margin-left: 700px;
+ display: flex;
+ justify-content: center;
 }
 
 /* sociable */
 .reseau {
-    height: 300px;
-    background-color: turquoise;
-
+  display: flex;
+  justify-content: center;
+  
+   
+   
+   
 
 }
+.reseau ul{
+    list-style: none;
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+.reseau li a{
+    width: 100px;
+    height: 100px;
+    background-color:black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+     text-decoration: none;
+}
+.reseau ul li i{
+    margin-top: 20px;
+    
+}
+.reseau ul li:hover{
+    color: blanchedalmond;
+  
+    transition: 0.5s;
+}
+.reseau ul li a{
+    transition: 0.5s;
+}
+.fa.fa-address-book{
+    font-size: 48px;
+    color: red;
+    
+}
+.fa.fa-archive{
+    font-size: 48px;
+    color: red;
+}
+.fa.fa-at{
+    font-size: 48px;
+    color: red;
+}.fa.fa-book{
+    font-size: 48px;
+    color: red;
+}
+.fa.fa-address-book:hover{
+    color: whitesmoke;
+    
+}
+.fa.fa-archive:hover{
+    color: whitesmoke;
+}
+.fa.fa-at:hover{
+    color: whitesmoke;
+}
+.fa.fa-book:hover{
+    color: whitesmoke;
+}
+
+
 /* pied de page */
 footer{
     height: 300px;
