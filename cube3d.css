@@ -9,6 +9,7 @@ body {
   color: var(--main);  
   font-family: 'Poiret One', cursive;
 }
+
 header {
   margin: 1rem auto 0;
   display: flex;
@@ -32,6 +33,7 @@ h1 {
 .expo {
   text-align: center;
   margin: 2rem 0 -2rem;
+  margin-top: 100px;
 }
 h2 {
   font-family: 'Six Caps', sans-serif;
@@ -176,9 +178,19 @@ h3 {
 
 /* USELESS BOTTOM PART */
 .content {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   max-width: 900px;
   margin: 0 auto 4rem;
+}
+@media screen and (max-width:620px){
+    .content{
+       display: grid; 
+       grid-template-columns: 1fr;
+       width: 400px;
+       justify-content: center;
+       margin: auto;
+    } 
 }
 .column {
   padding: .1rem 1rem;
