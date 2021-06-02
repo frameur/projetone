@@ -65,7 +65,7 @@ span {
 
 nav {
 
-  overflow: hidden;
+  /* overflow: hidden; */
   background-color: #262626;
   position: fixed;
   width: 100%;
@@ -344,6 +344,9 @@ footer {
       display: grid;
       grid-template-columns: 1fr 1fr;
      overflow-x: hidden;
+  }
+  nav{
+      overflow: hidden;
   }
 }
 
