@@ -339,10 +339,12 @@ footer {
         font-size: 14px;
 
     }
-    body{
-        overflow-y: hidden;
-    }
-   
+  li a{
+      font-size: 11px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+     
+  }
 }
 
 
