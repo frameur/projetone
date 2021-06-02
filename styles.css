@@ -204,7 +204,7 @@ nav ul li a:hover {
     transition: transform .5s;
 }
 
-.container .box .detail .content {
+.container .box .detail .content1 {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -214,11 +214,11 @@ nav ul li a:hover {
 
 }
 
-.container .box .detail .content h2 {
+.container .box .detail .content1 h2 {
     margin: 0;
     padding: 0;
     font-size: 20px;
-    color: #ffff00;
+    color: orange;
 }
 
 .container .box:hover .detail {
