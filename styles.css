@@ -339,6 +339,9 @@ footer {
         font-size: 14px;
 
     }
+    body{
+        overflow-y: hidden;
+    }
    
 }
 
